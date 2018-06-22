@@ -1,0 +1,43 @@
+
+body {
+  height: 100%;
+  text-align: center;
+}
+
+nav {
+  z-index: 100;
+  position: sticky;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background: lightgrey;
+  flex-wrap: wrap;
+}
+
+nav > ul > li {
+  background: lightpink;
+  padding: 0px;
+  margin: 5px;
+  align-items: center;
+}
+
+nav > ul > li > a {
+  align-self: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+.filler {
+  flex-grow: 10;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+form > ul {
+  list-style-type: none;
+}

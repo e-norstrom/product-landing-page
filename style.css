@@ -5,14 +5,20 @@ body {
 }
 
 nav {
+  display: inherit;
   z-index: 100;
   position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
 }
 
 nav > ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   padding: 10px;
   background: lightgrey;
   flex-wrap: wrap;
@@ -30,7 +36,7 @@ nav > ul > li > a {
   text-decoration: none;
   color: black;
   display: block;
-  padding: 10px;
+  padding: 15px;
 }
 
 .filler {

@@ -47,3 +47,16 @@ nav > ul > li > a {
 form > ul {
   list-style-type: none;
 }
+
+#nav-icon {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  nav > ul > li {
+    display: none;
+  }
+  #nav-icon {
+    display: inherit;
+  }
+}

@@ -37,6 +37,7 @@ nav > ul > li > a {
   color: black;
   display: block;
   padding: 15px;
+  width: 100%;
 }
 
 .filler {
@@ -55,8 +56,24 @@ form > ul {
 @media (max-width: 700px) {
   nav > ul > li {
     display: none;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    align-items:
   }
   #nav-icon {
     display: inherit;
   }
+  .filler {
+    display: none !important
+  }
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

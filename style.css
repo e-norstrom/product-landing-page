@@ -25,19 +25,25 @@ nav > ul {
 }
 
 nav > ul > li {
+  justify-content: center;
+  align-items: center;
   background: lightpink;
-  padding: 0px;
+  padding: 0;
   margin: 5px;
   align-items: center;
+  display: inherit;
 }
 
 nav > ul > li > a {
   align-self: center;
+  justify-content: center;
   text-decoration: none;
   color: black;
-  display: block;
+  display: inline-block;
   padding: 15px;
+  text-align: center;
   width: 100%;
+  height: 100%;
 }
 
 .filler {
@@ -67,6 +73,15 @@ form > ul {
   .filler {
     display: none !important
   }
+  .product-list {
+    display: grid;
+    border: solid;
+    grid-row: auto;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0 auto;
+    margin: 0 auto;
+  }
 }
 
 .noSelect {
@@ -76,4 +91,26 @@ form > ul {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: solid;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.product-list > li {
+  border: thin solid black;
+  margin: 1em auto;
+  padding: 0 auto;
+}
+
+.product-list > li > a {
+  display: inline-block;
+  padding: 5em;
+  text-decoration: none;
 }

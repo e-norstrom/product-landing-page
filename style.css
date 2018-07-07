@@ -114,3 +114,12 @@ form > ul {
   padding: 5em;
   text-decoration: none;
 }
+
+.fade-in {
+  animation: fade-animation 0.25s ease-in;
+}
+
+@keyframes fade-animation {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}

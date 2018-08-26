@@ -7,23 +7,26 @@
     <title>Product Landing Page</title>
   </head>
   <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <ul class="nav-list">
+          <i id="nav-icon" class="fas fa-bars fa-2x"></i>
+          <li class="fade-in"><a>Product</a></li>
+          <li class="filler"></li>
+          <li><a class="nav-link" href="#what">What</a></li>
+          <li><a class="nav-link" href="#why">Why</a></li>
+          <li><a class="nav-link" href="#prices">Prices</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/9/93/No-logo.svg">
+    </header>
     <main class="noSelect">
-      <header id="header">
-        <nav id="nav-bar">
-          <ul class="nav-list">
-            <i id="nav-icon" class="fas fa-bars fa-2x"></i>
-            <li class="fade-in"><a>Product</a></li>
-            <li class="filler"></li>
-            <li class="nav-link"><a href="#what">What</a></li>
-            <li class="nav-link"><a href="#why">Why</a></li>
-            <li class="nav-link"><a href="#prices">Prices</a></li>
-            <li class="nav-link"><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/9/93/No-logo.svg">
       <div id="what">
         <h2>What</h2>
-          <iframe width="640" height="360" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class="video-wrapper">
+          <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
       </div>
       <div id="why">
         <h2>Why</h2>
@@ -40,8 +43,8 @@
         <h2>Contact</h2>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <ul>
-            <li><label for="email">Email: </label><input id="email" type="email" placeholder="Enter your email"></li>
-            <li><label for="submit"></label><input id="sumbit" type="submit"></input></li>
+            <li><label for="email">Email: </label><input id="email" type="email" name="email" placeholder="Enter your email"></li>
+            <li><label for="submit"></label><input id="submit" type="submit"></li>
           </ul>
         </form>
       </div>
@@ -50,3 +53,5 @@
 </html>
 
 <script src="product-landing-page.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+

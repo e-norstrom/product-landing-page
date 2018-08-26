@@ -1,0 +1,22 @@
+{
+  "name": "product-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "product-landing-page.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-norstrom/product-landing-page.git"
+  },
+  "author": "Elias Norstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-norstrom/product-landing-page/issues"
+  },
+  "homepage": "https://github.com/e-norstrom/product-landing-page#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
